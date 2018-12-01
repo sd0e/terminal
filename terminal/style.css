@@ -1,34 +1,58 @@
 .terminal {
-  font-family: 'Source Code Pro', monospace;
-  color: #00ff00;
-  font-weight: bold;
-}
+    font-family: 'Source Code Pro', monospace;
+    color: #00ff00;
+    font-weight: bold;
+  }
 
-body {
-  background-color: rgb(42, 66, 0);
-}
+.terminal_large {
+    font-family: 'Source Code Pro', monospace;
+    color: #00ff00;
+    font-weight: bold;
+    font-size: 30pt;
+  }
 
-.terminal_menu {
-  font-family: 'Source Code Pro', monospace;
-  color: rgb(42, 66, 0);
-  font-weight: bold;
-  background-color: #00ff00;
-  padding-right: 10px;
-  text-decoration: #00ff00;
-}
+.terminal_small {
+    font-family: 'Source Code Pro', monospace;
+    color: #00ff00;
+    font-weight: bold;
+    font-size: 10pt;
+  }
+  
+  body {
+    background-color: rgb(42, 66, 0);
+  }
+  
+  .terminal_menu {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(42, 66, 0);
+    font-weight: bold;
+    background-color: #00ff00;
+    padding-right: 10px;
+    text-decoration: #00ff00;
+  }
+  
+  .terminal_selected {
+    font-family: 'Source Code Pro', monospace;
+    color: #00ff00;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  
+  .terminal_link {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(42, 66, 0);
+    font-weight: bold;
+    background-color: #00ff00;
+    text-decoration: #00ff00;
+    padding-right: 10px;
+  }
 
-.terminal_selected {
-  font-family: 'Source Code Pro', monospace;
-  color: #00ff00;
-  font-weight: bold;
-  padding-right: 10px;
-}
-
-.terminal_link {
-  font-family: 'Source Code Pro', monospace;
-  color: rgb(42, 66, 0);
-  font-weight: bold;
-  background-color: #00ff00;
-  text-decoration: #00ff00;
-  padding-right: 10px;
-}
+  .terminal_link_small {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(42, 66, 0);
+    font-weight: bold;
+    background-color: #00ff00;
+    text-decoration: #00ff00;
+    padding-right: 10px;
+    font-size: 10pt;
+  }
