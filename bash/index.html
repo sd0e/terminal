@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <section id="terminal">
+    <button class="btn" id="bar" style="top:0px left:0px">
+      <header>
+        <ul>
+          <li class="close"></li>
+          <li class="full"></li>
+          <li class="min"></li>
+        </ul>
+      </header>
+      <section>
+        <div class="content" onclick="document.getElementById('code').focus();">
+          <ul id="message" class="scrollbar"></ul>
+          <span class="encart">> </span>
+          <input type="text" onKeyPress="if(event.keyCode == 13) capture();"  id="code" autocomplete = "off">
+        </div>
+      </section>
+    </button>
+  </section>
+</body></html>
